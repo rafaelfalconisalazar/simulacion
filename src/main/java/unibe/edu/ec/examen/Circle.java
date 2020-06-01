@@ -26,5 +26,11 @@ public class Circle {
 		double perimeter= pi*2*radius;
 		return perimeter;
 	}
+	
+	public double calculateVolum(double pi, double radius) {
+		double volum=(4.0/3.0)*pi*radius*this.radius*this.radius;
+		return volum;
+	}
+
 
 }

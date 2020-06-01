@@ -23,5 +23,10 @@ public class CircleTest {
 	public void testCalculatePermiter() {
 		assertEquals(37.69, circle.calculatePerimeter(3.1416), 0.10);
 	}
+	
+	@Test
+	public void testCalculateVolum() {
+		assertEquals(904.77, circle.calculateVolum(3.1416, 6.0), 0.10);
+	}
 
 }
