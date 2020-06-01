@@ -18,5 +18,10 @@ public class CircleTest {
 	public void testCalculateArea() {
 		assertEquals(113.09, circle.calculateArea(), 0.10);
 	}
+	
+	@Test
+	public void testCalculatePermiter() {
+		assertEquals(37.69, circle.calculatePerimeter(3.1416), 0.10);
+	}
 
 }
